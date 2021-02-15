@@ -72,23 +72,23 @@ body {
 }
 
 .hero h1 {
-  font-size: 80px;
+  font-size: 60px;
 }
 
 .hero h2 {
   font-size: 30px;
 }
 
-.hero-inside img {
+.hero img {
   height: auto;
   width: 100px;
   margin-top: 10px;
   border-radius: 70%;
-  filter: opacity(5%);
+  filter: opacity(2%);
 }
 
-.hero-inside img:hover{
-  filter:opacity(40%);
+.hero img:hover{
+  filter:opacity(20%);
 }
 
 
@@ -105,7 +105,7 @@ body {
 }
 
 .about-me h2 {
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .about-me-content  {
@@ -128,7 +128,7 @@ body {
   color: white;
   text-align: center;
   padding-top: 50px;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .cards {
@@ -140,6 +140,10 @@ body {
   flex-direction:column ;
   padding-bottom: 0px;
 
+}
+
+.cards h3 {
+  color: gray;
 }
 
 .cards img {
@@ -160,12 +164,12 @@ body {
 }
 
 .card:first-child {
-  flex: 1 1 400px;
-  width: 50%;
+  flex: 1 1 300px;
+  width: 40%;
 }
 
 .card:not(:first-child) {
-  flex: 1 1 300px;
+  flex: 1 1 200px;
   max-width: 60%;
   
 }
